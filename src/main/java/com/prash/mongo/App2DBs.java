@@ -27,6 +27,7 @@ public class App2DBs {
 
 			/**** Get collection / table from 'testdb' ****/
 			// if collection doesn't exists, MongoDB will create it for you
+			
 
 			List<String> dbs = mongo.getDatabaseNames();
 			dbs.stream().forEach(System.out::println);
